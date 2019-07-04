@@ -1,35 +1,31 @@
 {
   "name": "todolist-web-example",
   "version": "1.0.0",
-  "description": "Frontend for Todo List example app",
-  "main": "src/index.js",
+  "description": "Frontend for Todo List example app. It has a backend API dependency.",
+  "repository": "github:kintohub/todolist-web-example",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=node"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kintohub/todolist-web-example.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kintohub/todolist-web-example/issues"
-  },
-  "homepage": "https://github.com/kintohub/todolist-web-example#readme",
   "devDependencies": {
     "react-scripts": "^3.0.0",
     "react-test-renderer": "^16.8.6"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "classnames": "^2.2.6",
+    "history": "^4.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
     "redux": "^4.0.1",
+    "redux-localstorage": "^0.4.1",
+    "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "todomvc-app-css": "^2.2.0"
   },
