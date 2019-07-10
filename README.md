@@ -1,4 +1,4 @@
-# todolist-web-example
+# todolist-spa-example
 Frontend for Todo List example app
 
 Based on the [TodoMVC example app] from [Redux].

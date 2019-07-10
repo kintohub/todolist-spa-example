@@ -1,8 +1,8 @@
 {
-  "name": "todolist-web-example",
+  "name": "todolist-spa-example",
   "version": "1.0.0",
   "description": "Frontend for Todo List example app. It has a backend API dependency.",
-  "repository": "github:kintohub/todolist-web-example",
+  "repository": "github:kintohub/todolist-spa-example",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -27,6 +27,7 @@
     "redux-localstorage": "^0.4.1",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
+    "serve": "^11.1.0",
     "todomvc-app-css": "^2.2.0"
   },
   "browserslist": [
