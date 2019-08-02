@@ -7,8 +7,8 @@ describe('todos reducer', () => {
       todos(undefined, {})
     ).toEqual([
       {
-        text: 'Use Redux',
-        completed: false,
+        text: 'Build cloud-native apps with KintoHub',
+        isCompleted: false,
         id: 0
       }
     ])

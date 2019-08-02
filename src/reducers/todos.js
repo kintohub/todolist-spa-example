@@ -2,7 +2,7 @@ import * as appActions from '../constants/ActionTypes'
 
 const initialState = [
   {
-    text: 'Use Redux',
+    text: 'Build cloud-native apps with KintoHub',
     isCompleted: false,
     id: 0
   }
